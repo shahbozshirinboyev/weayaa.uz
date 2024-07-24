@@ -635,7 +635,7 @@ button {
   background-color: #fff; }
 .white-vertion .img-color-overlay {
   /* background-color: rgba(255, 255, 255, 0.9); */
-  background-color: rgba(0, 0, 0, 0.603);
+  background-color: rgba(0, 0, 0, 0.4);
  }
 .white-vertion .dark-bg {
   background-color: #fff; }
@@ -665,7 +665,7 @@ button {
 }
 .white-vertion .mh-header .navbar-nav li a {
   color: #fff;
-  opacity: 0.8;
+  opacity: 1;
   transition: color 0.3s ease; }
 .white-vertion .mh-home .mh-header-info .social-icon li .fa:hover {
   background-color: #000; }
