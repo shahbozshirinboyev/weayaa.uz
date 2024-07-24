@@ -55,7 +55,7 @@ var headings = [
                                             
                                             <h2 class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s" style="color: white;">Tommy Kim</h2>
                                             <h4 class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s" style="color: white;">웨야 우즈베키스탄 대표</h4>
-                                            <h5 class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s" style="color: white;">혁명은 다 익어 저절로 떨어지는 사과가 아니다. 떨어뜨려야 하는 것이다. (By Che Guevara)</h5>
+                                            <h5 class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s" style="color: white;">오늘보다 더 나은 내일이 찾아오길... U</h5>
                                             
                                         </div>
                                     </div>

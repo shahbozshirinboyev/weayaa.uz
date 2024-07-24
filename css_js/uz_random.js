@@ -55,7 +55,7 @@ var headings = [
                                             
                                             <h2 class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s" style="color: white;">Tommy Kim</h2>
                                             <h4 class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s" style="color: white;">Weayaa Uzbekiston bosh direktori</h4>
-                                            <h5 class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s" style="color: white;">Inqilob pishganda tushadigan olma emas. Siz uni yiqitishingiz kerak. (By Che Guevara)</h5>
+                                            <h5 class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s" style="color: white;">Umid qilamanki, ertangi kun bugundan yaxshiroq bo'ladi... U</h5>
                                             
                                         </div>
                                     </div>

@@ -55,7 +55,7 @@ var headings = [
                                             
                                             <h2 class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s" style="color: white;">Tommy Kim</h2>
                                             <h4 class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s" style="color: white;">Weayaa UZ CEO</h4>
-                                            <h5 class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s" style="color: white;">The revolution is not an apple that falls when it is ripe. You have to make it fall. (By Che Guevara)</h5>
+                                            <h5 class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s" style="color: white;">I hope tomorrow will come better than today... U</h5>
                                             
                                         </div>
                                     </div>
