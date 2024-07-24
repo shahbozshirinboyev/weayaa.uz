@@ -129,25 +129,25 @@
     0%{
         background-image: url('../images/background/img1.jpg');
     }
-    23%{
+    20%{
         background-image: url('../images/background/img1.jpg');
     }
     25%{
         background-image: url('../images/background/img2.jpg');
     }
-    48%{
+    45%{
         background-image: url('../images/background/img2.jpg');
     }
     50%{
         background-image: url('../images/background/img3.jpg');
     }
-    73%{
+    70%{
         background-image: url('../images/background/img3.jpg');
     }
     75%{
         background-image: url('../images/background/img4.jpg');
     }
-    98%{
+    95%{
         background-image: url('../images/background/img4.jpg');
     }
     100%{
@@ -204,7 +204,7 @@
     opacity: 1 !important;
 }
 
-.dropdown-item:hover {
-    /* border: 1px solid #56cc35ad; */
-    /* background-color: #56cc35ad !important; */
-}
+/* .dropdown-item:hover {
+    border: 1px solid #56cc35ad;
+    background-color: #56cc35ad !important;
+} */
