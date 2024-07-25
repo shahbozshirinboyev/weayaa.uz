@@ -46,39 +46,39 @@ window.addEventListener('scroll', function () {
 // -------------------------------------------------------------------------------------------------
 
 // button Language Color Change
-document.addEventListener('scroll', function () {
-    const button = document.querySelector('.buttonlanguage');
-    if (window.scrollY >= 25) {
-        button.style.color = 'black';
-    } else {
-        button.style.color = 'white';
-    }
-});
+// document.addEventListener('scroll', function () {
+//     const button = document.querySelector('.buttonlanguage');
+//     if (window.scrollY >= 25) {
+//         button.style.color = 'black';
+//     } else {
+//         button.style.color = 'white';
+//     }
+// });
 
 // -------------------------------------------------------------------------------------------------
 
-// button Language Color Change Scrool 
-$(document).ready(function () {
-    // Check scroll position on page load
-    checkScrollPosition();
+// // button Language Color Change Scrool 
+// $(document).ready(function () {
+//     // Check scroll position on page load
+//     checkScrollPosition();
 
-    // Check scroll position on scroll event
-    $(window).scroll(function () {
-        checkScrollPosition();
-    });
+//     // Check scroll position on scroll event
+//     $(window).scroll(function () {
+//         checkScrollPosition();
+//     });
 
-    function checkScrollPosition() {
-        var scrollPosition = $(window).scrollTop();
-        if (scrollPosition >= 50) {
-            // Change carousel to slide 0 (first slide)
-            $('#carouselIndicators li').removeClass('active');
-            $('#carouselIndicators li[data-slide-to="0"]').addClass('active');
-            $('#carouselExampleCaptions').carousel(0); // Activate first slide
-        } else {
-            // Reset to the original state (you can customize this part if needed)
-            $('#carouselIndicators li').removeClass('active');
-            $('#carouselIndicators li[data-slide-to="1"]').addClass('active'); // You can adjust which slide to show here
-            $('#carouselExampleCaptions').carousel(1); // Activate the specified slide
-        }
-    }
-});
+//     function checkScrollPosition() {
+//         var scrollPosition = $(window).scrollTop();
+//         if (scrollPosition >= 50) {
+//             // Change carousel to slide 0 (first slide)
+//             $('#carouselIndicators li').removeClass('active');
+//             $('#carouselIndicators li[data-slide-to="0"]').addClass('active');
+//             $('#carouselExampleCaptions').carousel(0); // Activate first slide
+//         } else {
+//             // Reset to the original state (you can customize this part if needed)
+//             $('#carouselIndicators li').removeClass('active');
+//             $('#carouselIndicators li[data-slide-to="1"]').addClass('active'); // You can adjust which slide to show here
+//             $('#carouselExampleCaptions').carousel(1); // Activate the specified slide
+//         }
+//     }
+// });

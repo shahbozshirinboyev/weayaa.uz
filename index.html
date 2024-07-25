@@ -166,10 +166,11 @@
     </header>
 
     <!-- =================== Home =================== -->
-    <section class="mh-home video-container img-color-overlay" id="mh-home">
-        <video autoplay muted loop id="background-video">
+    <section class="mh-home img-container img-color-overlay" id="mh-home">
+
+        <div id="background-img">
             <!-- <source src="./video/Intro.mp4" type="video/mp4"> -->
-        </video>
+        </div>
 
         <div class="bd-example">
 
@@ -726,44 +727,6 @@
             </div> <!-- End: .row -->
         </div>
 
-        <div class="mh-portfolio-modal" id="design1">
-            <div class="container">
-                <div class="row">
-
-                    <div class="col">
-                        <img src="assets/images/portfolio/geroi/c4.png" alt="" class="img-fluid">
-                    </div>
-
-                </div>
-            </div>
-        </div>
-
-        <div class="mh-portfolio-modal" id="design14">
-            <div class="container">
-                <div class="row">
-
-                    <div class="col">
-                        <img src="./assets/images/portfolio/geroi/monster.jpg" alt="" class="img-fluid">
-                    </div>
-
-                </div>
-            </div>
-        </div>
-
-        <div class="mh-portfolio-modal" id="design15">
-            <div class="container">
-                <div class="row">
-
-                    <div class="col">
-                        <img src="./assets/images/portfolio/geroi/katana_1.jpg" alt="" class="img-fluid">
-                        <img src="./assets/images/portfolio/geroi/katana_2.jpg" alt="" class="img-fluid">
-                        <img src="./assets/images/portfolio/geroi/katana_3.jpg" alt="" class="img-fluid">
-                    </div>
-
-                </div>
-            </div>
-        </div>
-
         <div class="mh-portfolio-modal" id="design16">
             <div class="container">
                 <div class="row">
@@ -801,48 +764,12 @@
             </div>
         </div>
 
-        <div class="mh-portfolio-modal" id="design3">
-            <div class="container">
-                <div class="row">
-
-                    <div class="col">
-                        <img src="assets/images/portfolio/geroi/c8.png" alt="" class="img-fluid">
-                    </div>
-
-                </div>
-            </div>
-        </div>
-
         <div class="mh-portfolio-modal" id="design4">
             <div class="container">
                 <div class="row">
 
                     <div class="col">
                         <img src="assets/images/portfolio/game/1.jpg" alt="" class="img-fluid">
-                    </div>
-
-                </div>
-            </div>
-        </div>
-
-        <div class="mh-portfolio-modal" id="design5">
-            <div class="container">
-                <div class="row">
-
-                    <div class="col">
-                        <img src="assets/images/portfolio/geroi/g10.png" alt="" class="img-fluid">
-                    </div>
-
-                </div>
-            </div>
-        </div>
-
-        <div class="mh-portfolio-modal" id="design6">
-            <div class="container">
-                <div class="row">
-
-                    <div class="col">
-                        <img src="assets/images/portfolio/geroi/Knight Render.png" alt="" class="img-fluid">
                     </div>
 
                 </div>
@@ -957,7 +884,7 @@
                                 target="formResultFrame">
 
                                 <!-- Replace with your Access Key -->
-                                <input type="hidden" name="access_key" value="e8c5e65b-6d20-4f29-84e3-12b134c17f3b">
+                                <input type="hidden" name="access_key" value="e4c58ed6-ed49-4b7c-a587-ad032377683b">
 
                                 <div class="row">
 
@@ -1137,13 +1064,16 @@
                 $('#exampleModalError').modal('show');
             }
         }
-        document.getElementById('contactForm').onsubmit = function () {
-            showModal();
-        };
+
+        // document.getElementById('contactForm').onsubmit = function() {
+        //     showModal();
+        // };
+
         function clearForm() {
             document.getElementById("contactForm123").reset();
         }
         //Form element END
+        
     </script>
 </body>
 

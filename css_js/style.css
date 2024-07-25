@@ -42,15 +42,6 @@
 
 /* navbar end */
 
-/* video start */
-.video-container {
-    position: relative;
-    width: 100%;
-    height: 100vh;
-    /* Full viewport height */
-    overflow: hidden;
-}
-
 .carousel-control-next {
     bottom: -75% !important;
 }
@@ -111,7 +102,15 @@
     color: #2E6734;
 }
 
-#background-video {
+.img-container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    /* Full viewport height */
+    overflow: hidden;
+}
+
+#background-img {
     background-image: url('../images/background/img1.jpg');
     background-size: cover;
     background-repeat: no-repeat;
@@ -125,6 +124,7 @@
     transform: translate(-50%, -50%);
     animation: bg_change 30s linear infinite;
 }
+
 @keyframes bg_change {
     0%{
         background-image: url('../images/background/img1.jpg');
