@@ -415,6 +415,12 @@
       .carousel-control-next, .carousel-control-prev{
         width: 25% !important;
     }
+    .footer-text-size span{
+      font-size: 11px;
+    }
+    .footer-text-size .img-logo{
+      width: 150px;
+    }
   }
 
 @media only screen and (max-width: 575px) {
@@ -545,6 +551,12 @@
     .carousel-control-next, .carousel-control-prev{
       width: 25% !important;
   }
+  .footer-text-size span{
+    font-size: 10px;
+  }
+  .footer-text-size .img-logo{
+    width: 150px;
+  }
  }
 @media only screen and (max-width: 420px) {
   .mh-footer-address{
@@ -558,6 +570,12 @@
     padding: 60px 0; }
     .carousel-control-next, .carousel-control-prev{
       width: 25% !important;
+  }
+  .footer-text-size span{
+    font-size: 9.2px;
+  }
+  .footer-text-size .img-logo{
+    width: 130px;
   }
  }
 
