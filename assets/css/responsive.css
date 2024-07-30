@@ -382,8 +382,11 @@
     width: 40%;
     text-align: left; }
 
+  /* 
   .mh-testimonial .mh-client-item {
-    padding: 30px 10px; }
+    padding: 30px 10px;  
+  } 
+  */
 
   .mh-home-2 .mh-header-info .mh-about-tag {
     width: 100%; }
@@ -552,7 +555,7 @@
       width: 25% !important;
   }
   .footer-text-size span{
-    font-size: 10px;
+    font-size: 8.9px;
   }
   .footer-text-size .img-logo{
     width: 150px;
@@ -577,6 +580,31 @@
   .footer-text-size .img-logo{
     width: 130px;
   }
+ }
+
+ @media only screen and (max-width: 400px) {
+  .footer-text-size span{
+    font-size: 8.5px;
+  }
+  .footer-text-size .img-logo{
+    width: 120px;
+  }
+ }
+ @media only screen and (max-width: 360px) {
+  .footer-text-size span{
+    font-size: 7px;
+  }
+  .footer-text-size .img-logo{
+    width: 120px;
+  }
+}
+  @media only screen and (max-width: 340px) {
+    .footer-text-size span{
+      font-size: 6px;
+    }
+    .footer-text-size .img-logo{
+      width: 120px;
+    }
  }
 
 /*# sourceMappingURL=responsive.css.map */
