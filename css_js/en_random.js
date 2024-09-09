@@ -7,6 +7,52 @@ var headings = [
                                                 <span>Hello, I'm</span>
                                             </div>
                                             
+                                            <h2 class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s" style="color: white;">O'ktamjon Dilbarov</h2>
+                                            <h4 class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s" style="color: white;">Back-end Developer</h4>
+                                            <h5 class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s" style="color: white;">Behind every difficulty there are new opportunities - you just need patience and work to discover them.</h5>
+                                            
+                                        </div>
+                                    </div>
+            
+                                    <div class="col-sm-6">
+                                        <div class="hero-img wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.6s">
+                                            <div class="img-border">
+                                                <img src="./caricature_images/5.jpg" alt=""  class="img-fluid">
+                                            </div>
+                                        </div>
+                                    </div>
+    `,
+
+    `
+                                    <div class="col-sm-6">
+                                        <div class="mh-header-info">
+                                            <div class="mh-promo wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.1s">
+                                                <span>Hello, I'm</span>
+                                            </div>
+                                            
+                                            <h2 class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s" style="color: white;">Khamid Seydanov</h2>
+                                            <h4 class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s" style="color: white;">3D Designer</h4>
+                                            <h5 class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s" style="color: white;">“Today” is your opportunity to build the “Tomorrow” you want.</h5>
+                                            
+                                        </div>
+                                    </div>
+            
+                                    <div class="col-sm-6">
+                                        <div class="hero-img wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.6s">
+                                            <div class="img-border">
+                                                <img src="./caricature_images/4.jpg" alt=""  class="img-fluid">
+                                            </div>
+                                        </div>
+                                    </div>
+    `,
+
+    `
+                                    <div class="col-sm-6">
+                                        <div class="mh-header-info">
+                                            <div class="mh-promo wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.1s">
+                                                <span>Hello, I'm</span>
+                                            </div>
+                                            
                                             <h2 class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s" style="color: white;">Lee Seung Hyun</h2>
                                             <h4 class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s" style="color: white;">Weayaa Korea CEO</h4>
                                             <h5 class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s" style="color: white;">You are a person who can succeed in anything.</h5>
@@ -145,9 +191,9 @@ var headings = [
                                                 <span>Hello, I'm</span>
                                             </div>
                                             
-                                            <h2 class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s" style="color: white;">Subhiddin Ergashev</h2>
-                                            <h4 class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s" style="color: white;">Graphic Designer</h4>
-                                            <h5 class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s" style="color: white;">It's just a bad day, not a bad life.</h5>
+                                            <h2 class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s" style="color: white;">Subhiddin Nuriddinov</h2>
+                                            <h4 class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s" style="color: white;">iOS Developer</h4>
+                                            <h5 class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s" style="color: white;">Success isn't about luck, it's about coding your way through any obstacle.</h5>
                                             
                                         </div>
                                     </div>
