@@ -191,29 +191,6 @@ var headings = [
                                                 <span>안녕하세요, 저는</span>
                                             </div>
                                             
-                                            <h2 class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s" style="color: white;">Subhiddin Nuriddinov</h2>
-                                            <h4 class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s" style="color: white;">iOS 개발자</h4>
-                                            <h5 class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s" style="color: white;">성공은 - 행운에 관한 것이 아니라, 장애물을 헤쳐나가는 코딩에 관한 것입니다.</h5>
-                                            
-                                        </div>
-                                    </div>
-            
-                                    <div class="col-sm-6">
-                                        <div class="hero-img wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.6s">
-                                            <div class="img-border">
-                                                <img src="./caricature_images/8.jpg" alt=""  class="img-fluid">
-                                            </div>
-                                        </div>
-                                    </div>
-    `,
-
-    `
-                                    <div class="col-sm-6">
-                                        <div class="mh-header-info">
-                                            <div class="mh-promo wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.1s">
-                                                <span>안녕하세요, 저는</span>
-                                            </div>
-                                            
                                             <h2 class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s" style="color: white;">Zerda Jursinova</h2>
                                             <h4 class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s" style="color: white;">프런트엔드 개발자</h4>
                                             <h5 class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s" style="color: white;">알고리즘 정복: 효율적인 프로그래밍의 예술.</h5>

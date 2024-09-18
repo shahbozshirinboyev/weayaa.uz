@@ -191,29 +191,6 @@ var headings = [
                                                 <span>Salom, Men</span>
                                             </div>
                                             
-                                            <h2 class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s" style="color: white;">Subhiddin Nuriddinov</h2>
-                                            <h4 class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s" style="color: white;">iOS dasturchi</h4>
-                                            <h5 class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s" style="color: white;">Muvaffaqiyat - bu omad emas, balki har qanday to‘siqdan o‘tish yo‘lini kodlashdir.</h5>
-                                            
-                                        </div>
-                                    </div>
-            
-                                    <div class="col-sm-6">
-                                        <div class="hero-img wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.6s">
-                                            <div class="img-border">
-                                                <img src="./caricature_images/8.jpg" alt=""  class="img-fluid">
-                                            </div>
-                                        </div>
-                                    </div>
-    `, 
-
-    `
-                                    <div class="col-sm-6">
-                                        <div class="mh-header-info">
-                                            <div class="mh-promo wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.1s">
-                                                <span>Salom, Men</span>
-                                            </div>
-                                            
                                             <h2 class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s" style="color: white;">Zerda Jursinova</h2>
                                             <h4 class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s" style="color: white;">Front-End dasturchi</h4>
                                             <h5 class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s" style="color: white;">Algoritmlarni zabt etish: samarali dasturlash san'ati.</h5>
