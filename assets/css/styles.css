@@ -2256,9 +2256,10 @@ body {
   .portfolio-nav ul li {
     display: inline-block;
     margin: 0 20px;
+    padding-bottom: 10px;
     cursor: pointer; }
     .portfolio-nav ul li span {
-      padding: 15px 0;
+      padding: 2px 0;
       border-bottom: 2px solid transparent; }
     .portfolio-nav ul li.current span {
       border-bottom: 2px solid #2E6734; }
