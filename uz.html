@@ -1262,7 +1262,15 @@
         }
         //Form element END
     </script>
-
+    <!-- Cache problem solving -->
+    <script>
+        window.onload = function() {
+            var currentUrl = window.location.href;
+            if(!currentUrl.includes("nocache")){
+                window.location.href = currentUrl + "?nocache=" + new Date().getTime();
+            }
+        };
+    </script>
 </body>
 
 </html>
