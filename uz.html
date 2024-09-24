@@ -1264,10 +1264,9 @@
     </script>
     <!-- Cache problem solving -->
     <script>
-        window.onload = function() {
-            var currentUrl = window.location.href;
-            if(!currentUrl.includes("nocache")){
-                window.location.href = currentUrl + "?nocache=" + new Date().getTime();
+       window.onload = function() {
+            if (!window.location.href.includes('reloaded')) {
+                window.location.href = window.location.href + '?reloaded=true'; // Bitta marta qayta yuklanadi
             }
         };
     </script>
