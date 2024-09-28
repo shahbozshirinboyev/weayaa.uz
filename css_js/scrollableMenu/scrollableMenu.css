@@ -36,13 +36,13 @@
 .scrollable-tabs-container ul.dragging{
     scroll-behavior: auto;
 }
-.scrollable-tabs-container ul.dragging a{
+.scrollable-tabs-container ul.dragging span{
     pointer-events: none;
 }
 .scrollable-tabs-container ul::-webkit-scrollbar{
     display: none;
 }
-.scrollable-tabs-container a{
+.scrollable-tabs-container span{
     color: #fff;
     text-decoration: none;
     background-color: #333;
@@ -52,7 +52,7 @@
     user-select: none;
     white-space: nowrap;
 }
-.scrollable-tabs-container a.active{
+.scrollable-tabs-container span.active{
     transition: all;
     transition-duration: 200ms;
     background-color: #fff;

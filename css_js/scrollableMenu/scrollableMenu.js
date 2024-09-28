@@ -1,4 +1,4 @@
-const tabs = document.querySelectorAll(".scrollable-tabs-container a");
+const tabs = document.querySelectorAll(".scrollable-tabs-container span");
 const rightArrow = document.querySelector(
   ".scrollable-tabs-container .right-arrow i"
 );
