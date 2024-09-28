@@ -21,9 +21,9 @@
     top: 44%;
     right: 0; } }
 @media only screen and (max-width: 991px) {
-  .portfolio-nav ul li{
+  /* .portfolio-nav ul li{
     padding-bottom: 10px;
-  }
+  } */
   .mh-home .img-border {
     height: 350px;
     width: 350px; }
@@ -315,9 +315,9 @@
     .carousel-control-next, .carousel-control-prev{
       width: 20% !important;
   }
-  .portfolio-nav ul li{
+  /* .portfolio-nav ul li{
     padding-bottom: 15px;
-  }
+  } */
 }
 
 @media only screen and (max-width: 768px) {
@@ -430,9 +430,9 @@
     .footer-text-size .img-logo{
       width: 150px;
     }
-    .portfolio-nav ul li{
+    /* .portfolio-nav ul li{
       padding-bottom: 15px;
-    }
+    } */
   }
 
 @media only screen and (max-width: 575px) {
@@ -482,8 +482,8 @@
     padding-left: 0;
     margin-bottom: 30px; }
 
-  .portfolio-nav ul li {
-    margin-bottom: 20px; }
+  /* .portfolio-nav ul li {
+    margin-bottom: 20px; } */
 
   .mh-skills .mh-professional-skill {
     margin-bottom: 50px; }
@@ -569,9 +569,9 @@
   .footer-text-size .img-logo{
     width: 150px;
   }
-  .portfolio-nav ul li{
+  /* .portfolio-nav ul li{
     padding-bottom: 15px;
-  }
+  } */
  }
 @media only screen and (max-width: 420px) {
   .mh-footer-address{
@@ -592,9 +592,9 @@
   .footer-text-size .img-logo{
     width: 130px;
   }
-  .portfolio-nav ul li{
+  /* .portfolio-nav ul li{
     padding-bottom: 10px;
-  }
+  } */
  }
 
  @media only screen and (max-width: 400px) {
@@ -604,9 +604,9 @@
   .footer-text-size .img-logo{
     width: 120px;
   }
-  .portfolio-nav ul li{
+  /* .portfolio-nav ul li{
     padding-bottom: 10px;
-  }
+  } */
  }
  @media only screen and (max-width: 360px) {
   .footer-text-size span{
@@ -615,9 +615,9 @@
   .footer-text-size .img-logo{
     width: 120px;
   }
-  .portfolio-nav ul li{
+  /* .portfolio-nav ul li{
     padding-bottom: 10px;
-  }
+  } */
 }
   @media only screen and (max-width: 340px) {
     .footer-text-size span{
@@ -626,9 +626,9 @@
     .footer-text-size .img-logo{
       width: 120px;
     }
-    .portfolio-nav ul li{
+    /* .portfolio-nav ul li{
       padding-bottom: 10px;
-    }
+    } */
  }
 
 /*# sourceMappingURL=responsive.css.map */

@@ -230,7 +230,7 @@ a:focus {
 .section-title h3 {
   font-size: 30px;
   line-height: 40px;
-  color: #fff;
+  color: #2d6734 !important;
   font-weight: bold;
   margin-bottom: 30px;
 }
