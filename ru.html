@@ -47,6 +47,12 @@
     <link rel="alternate stylesheet" href="assets/css/colors/slate.css" title="slate">
     <link rel="alternate stylesheet" href="assets/css/colors/yellow.css" title="yellow">
 
+    <!-- Scrollable Menu START -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="./css_js/scrollableMenu/scrollableMenu.css">
+    <script src="./css_js/scrollableMenu/scrollableMenu.js" defer></script>
+    <!-- Scrollable Menu START -->
+
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;1,600&display=swap');
 
@@ -533,7 +539,7 @@
 
                 <div class="part col-sm-12">
 
-                    <div class="portfolio-nav col-sm-12" id="filter-button">
+                    <!-- <div class="portfolio-nav col-sm-12" id="filter-button">
 
                         <ul>
 
@@ -541,7 +547,7 @@
 
                             <li data-filter=".characters" class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s"> <span>Персонажи</span> </li>
 
-                            <!-- <li data-filter=".monsters" class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s"> <span>Monsters</span> </li> -->
+                            <li data-filter=".monsters" class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s"> <span>Monsters</span> </li>
 
                             <li data-filter=".weapons" class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s"> <span>Оружие</span> </li>
 
@@ -557,7 +563,43 @@
 
                         </ul>
 
+                    </div> -->
+
+                     <!-- Change to scrollable menu START -->
+
+                     <div class="scrollable-tabs-container portfolio-nav col-sm-12" id="filter-button">
+
+                        <div class="left-arrow">
+                            <i class="bi bi-chevron-left"></i>
+                        </div>
+
+                        <ul>
+                            <li data-filter="*" class="current wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.1s"> <span class="active">Все категории</span> </li>
+
+                            <li data-filter=".characters" class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s"> <span>Персонажи</span> </li>
+
+                            <!-- <li data-filter=".monsters" class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s"> <span>Monsters</span> </li> -->
+
+                            <li data-filter=".weapons" class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s"> <span>Оружие</span> </li>
+
+                            <li data-filter=".guns" class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s"> <span>Огнестрельное оружие</span> </li>
+
+                            <li data-filter=".architecture" class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.4s"> <span>Architecture</span> </li>
+
+                            <li data-filter=".ui-ux" class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.5s"> <span>UI/UX</span> </li>
+
+                            <li data-filter=".promotions" class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s"> <span>Акции</span> </li>
+
+                            <li data-filter=".view" class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.5s"> <span>Посмотреть</span> </li>
+                        </ul>
+
+                        <div class="right-arrow active">
+                            <i class="bi bi-chevron-right"></i>
+                        </div>
+
                     </div>
+
+                    <!-- Change to scrollable menu START -->
 
                     <div class="mh-project-gallery col-sm-12 wow fadeInUp" id="project-gallery" data-wow-duration="0.8s" data-wow-delay="0.5s">
                         <div class="portfolioContainer row">
