@@ -1,0 +1,95 @@
+.scrollable-tabs-container{
+    font-family: 'Roboto', sans-serif;
+    background-color: #000;
+    max-width: 750px;
+    margin: 25px auto;
+    border-radius: 5px;
+    overflow: hidden;
+    position: relative;
+}
+.scrollable-tabs-container i{
+    width: 24px;
+    height: 24px;
+    font-size: 22px;
+    padding: 8px;
+    cursor: pointer;
+    color: #fff;
+    border-radius: 50%;
+    transition: all;
+    transition-duration: 200ms;
+    pointer-events: auto;
+}
+.scrollable-tabs-container i:hover{
+    background: #333;
+}
+.scrollable-tabs-container ul{
+    display: flex;
+    gap: 18px;
+    padding: 12px 24px;
+    margin: 0;
+    list-style: none;
+    overflow-x: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    scroll-behavior: smooth;
+}
+.scrollable-tabs-container ul.dragging{
+    scroll-behavior: auto;
+}
+.scrollable-tabs-container ul.dragging a{
+    pointer-events: none;
+}
+.scrollable-tabs-container ul::-webkit-scrollbar{
+    display: none;
+}
+.scrollable-tabs-container a{
+    color: #fff;
+    text-decoration: none;
+    background-color: #333;
+    padding: 4px 20px;
+    display: inline-block;
+    border-radius: 4px;
+    user-select: none;
+    white-space: nowrap;
+}
+.scrollable-tabs-container a.active{
+    transition: all;
+    transition-duration: 200ms;
+    background-color: #fff;
+    color: #000;
+}
+.scrollable-tabs-container .left-arrow,
+.scrollable-tabs-container .right-arrow{
+    border: 1px solid red;
+    position: absolute;
+    height: 100%;
+    width: 100px;
+    top: 0;
+    z-index: 1000;
+    display: none;
+    align-items: center;
+    padding: 0 10px;
+    pointer-events: none;
+    justify-content: center;
+    align-items: center;
+}
+.scrollable-tabs-container .left-arrow i,
+.scrollable-tabs-container .right-arrow i{
+    font-size: 14px;
+    border: 1px solid red;
+}
+
+.scrollable-tabs-container .left-arrow.active,
+.scrollable-tabs-container .right-arrow.active{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.scrollable-tabs-container .right-arrow{
+    right: 0;
+    justify-content: flex-end;
+    background: linear-gradient(to left, #000 50%, transparent);
+}
+.scrollable-tabs-container .left-arrow{
+    background: linear-gradient(to right, #000 50%, transparent);
+}
