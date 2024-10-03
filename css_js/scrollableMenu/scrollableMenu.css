@@ -40,14 +40,14 @@
 .scrollable-tabs-container ul.dragging{
     scroll-behavior: auto;
 }
-.scrollable-tabs-container ul.dragging span{
+.scrollable-tabs-container ul.dragging li{
     pointer-events: none;
 }
 .scrollable-tabs-container ul::-webkit-scrollbar{
     display: none;
 }
-.scrollable-tabs-container span{
-    color: #2d6734;
+.scrollable-tabs-container li{
+    color: #2d6734 !important;
     text-decoration: none;
     background-color: #2d673427;
     padding: 4px 20px;
@@ -58,11 +58,11 @@
     cursor: pointer;
     font-size: 14px;
 }
-.scrollable-tabs-container span.active{
+.scrollable-tabs-container li.active{
     transition: all;
     transition-duration: 200ms;
     background-color: #2d6734;
-    color: #fff;
+    color: #fff !important;
 }
 .scrollable-tabs-container .left-arrow,
 .scrollable-tabs-container .right-arrow{

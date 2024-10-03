@@ -1,28 +1,5 @@
 // Content Random START
-var headings = [
-    `
-                                    <div class="col-sm-6">
-                                        <div class="mh-header-info">
-                                            <div class="mh-promo wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.1s">
-                                                <span>Hello, I'm</span>
-                                            </div>
-                                            
-                                            <h2 class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s" style="color: white;">O'ktamjon Dilbarov</h2>
-                                            <h4 class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s" style="color: white;">Back-end Developer</h4>
-                                            <h5 class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s" style="color: white;">Behind every difficulty there are new opportunities - you just need patience and work to discover them.</h5>
-                                            
-                                        </div>
-                                    </div>
-            
-                                    <div class="col-sm-6">
-                                        <div class="hero-img wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.6s">
-                                            <div class="img-border">
-                                                <img src="./caricature_images/5.jpg" alt=""  class="img-fluid">
-                                            </div>
-                                        </div>
-                                    </div>
-    `,
-
+var headings = [    
     `
                                     <div class="col-sm-6">
                                         <div class="mh-header-info">

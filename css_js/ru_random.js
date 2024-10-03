@@ -7,29 +7,6 @@ var headings = [
                                                 <span>Hello, I'm</span>
                                             </div>
                                             
-                                            <h2 class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s" style="color: white;">O'ktamjon Dilbarov</h2>
-                                            <h4 class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s" style="color: white;">Back-end разработчик</h4>
-                                            <h5 class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s" style="color: white;">За любыми трудностями скрываются новые возможности – нужно лишь терпение и труд, чтобы их раскрыть.</h5>
-                                            
-                                        </div>
-                                    </div>
-            
-                                    <div class="col-sm-6">
-                                        <div class="hero-img wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.6s">
-                                            <div class="img-border">
-                                                <img src="./caricature_images/5.jpg" alt=""  class="img-fluid">
-                                            </div>
-                                        </div>
-                                    </div>
-    `,
-
-    `
-                                    <div class="col-sm-6">
-                                        <div class="mh-header-info">
-                                            <div class="mh-promo wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.1s">
-                                                <span>Hello, I'm</span>
-                                            </div>
-                                            
                                             <h2 class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s" style="color: white;">Khamid Seydanov</h2>
                                             <h4 class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s" style="color: white;">3D-дизайнер</h4>
                                             <h5 class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s" style="color: white;">"Сегодня" – это твоя возможность построить "Завтра", которое ты хочешь.</h5>

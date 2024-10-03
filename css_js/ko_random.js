@@ -7,29 +7,6 @@ var headings = [
                                                 <span>Hello, I'm</span>
                                             </div>
                                             
-                                            <h2 class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s" style="color: white;">O'ktamjon Dilbarov</h2>
-                                            <h4 class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s" style="color: white;">백엔드 개발자</h4>
-                                            <h5 class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s" style="color: white;">어려움 뒤에는 새로운 기회가 숨겨져 있습니다. 인내심과 노력으로 기회를 열어야 합니다.</h5>
-                                            
-                                        </div>
-                                    </div>
-            
-                                    <div class="col-sm-6">
-                                        <div class="hero-img wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.6s">
-                                            <div class="img-border">
-                                                <img src="./caricature_images/5.jpg" alt=""  class="img-fluid">
-                                            </div>
-                                        </div>
-                                    </div>
-    `,
-
-    `
-                                    <div class="col-sm-6">
-                                        <div class="mh-header-info">
-                                            <div class="mh-promo wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.1s">
-                                                <span>Hello, I'm</span>
-                                            </div>
-                                            
                                             <h2 class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s" style="color: white;">Khamid Seydanov</h2>
                                             <h4 class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s" style="color: white;">3D 디자이너</h4>
                                             <h5 class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s" style="color: white;">'오늘이' 당신이 원하는 '미래'를 창작할 수 있는 기회다.</h5>

@@ -122,36 +122,24 @@
     width: auto;
     z-index: -1;
     transform: translate(-50%, -50%);
-    animation: bg_change 30s linear infinite;
+    animation: bg_change 15s linear infinite;
 }
 
 @keyframes bg_change {
     0%{
-        background-image: url('../images/background/img1.jpg');
-    }
-    20%{
-        background-image: url('../images/background/img1.jpg');
-    }
-    30%{
-        background-image: url('../images/background/img2.jpg');
-    }
-    50%{
-        background-image: url('../images/background/img2.jpg');
-    }
-    60%{
-        background-image: url('../images/background/img3.jpg');
-    }
-    70%{
-        background-image: url('../images/background/img3.jpg');
-    }
-    80%{
         background-image: url('../images/background/img4.jpg');
     }
-    90%{
+    10%{
+        background-image: url('../images/background/img3.jpg');
+    }
+    50%{
+        background-image: url('../images/background/img3.jpg');
+    }
+    60%{
         background-image: url('../images/background/img4.jpg');
     }
     100%{
-        background-image: url('../images/background/img1.jpg');
+        background-image: url('../images/background/img4.jpg');
     }
 }
 
