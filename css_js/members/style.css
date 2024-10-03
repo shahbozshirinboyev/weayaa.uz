@@ -1,100 +1,139 @@
-/* Sliding Banner Start */
-.bodyslider {
-  align-items: center;
-  display: flex;
-  justify-content: center;
-  margin-bottom: 25px;
-
-  mask-image: linear-gradient(
-    to right,
-    rgba(0, 0, 0, 0),
-    rgba(0, 0, 0, 1) 20%,
-    rgba(0, 0, 0, 1) 80%,
-    rgba(0, 0, 0, 0)
-  );
+:root {
+  --clr-primary-800: #ddd;
+  --clr-primary-400: #fff;
+  --clr-primary-box-shadow: black;
 }
 
-.bodyslider .slide img {
-  width: 100%;
-  height: 200px;
+h1 {
+  text-align: center;
+}
+
+.members-body {
+  display: grid;
+  margin: 0;
+  /* min-block-size: 100vh; */
+  place-content: center;
+  font-family: system-ui;
+  /* font-size: 1.125rem; */
+  /* background-color: var(--clr-primary-800); */
+
+  /* border: 2px solid green; */
+}
+
+.tag-list {
+  margin: 0;
+  padding-inline: 0;
+  list-style: none;
+}
+
+.tag-list li {
+  padding: 0.5rem;
+  background: var(--clr-primary-400);
+  border-radius: 0.5rem;
+  /* box-shadow: 0 0.5rem 1 rem -0.25rem var(--clr-primary-box-shadow); */
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.tag-list li img{
+  width: 250px;
+  height: 270px;
   object-fit: cover;
+  border-radius: 10px;
 }
-.bodyslider .slide h4 {
+.tag-list .member-info{
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
+  padding: 5px 10px;
+  margin-top: 10px;
+  /* border: 1px solid red; */
+}
+.tag-list .member-info h4{
+  color: #2E6734;
+  font-size: 20px;
+}
+.tag-list .member-info p{
+  color: #2E6734;
   font-size: 18px;
-  color: #2e6734;
-}
-.bodyslider .slide p {
-  display: flex;
-  text-align: center;
-  justify-content: center;
-  align-items: center;
-  font-size: 16px;
-  margin-bottom: 0 !important;
-}
-.bodyslider .slide-info {
-  padding-top: 15px;
-  padding-left: 5px;
-  padding-right: 5px;
-  background-color: bisque;
+  margin-bottom: 0px;
 }
 
-@-webkit-keyframes scroll {
-  0% {
-    -webkit-transform: translateX(0);
-    transform: translateX(0);
-  }
-  100% {
-    -webkit-transform: translateX(calc(-200px * 13));
-    transform: translateX(calc(-200px * 13));
-  }
+/* .scroller {
+  max-width: 60vw;
+} */
+
+.scroller__inner {
+  display: flex;
+  gap: 1rem;
+  /* padding-block: 1rem; */
+  padding-bottom: .5rem;
+  flex-wrap: wrap;
+}
+
+.scroller[data-animated="true"] {
+  overflow: hidden;
+  
+  -webkit-mask: linear-gradient(90deg, transparent, white 10%, white 90%, transparent);
+  mask: linear-gradient(90deg, transparent, white 10%, white 90%, transparent);
+  
+}
+
+.scroller[data-animated="true"] .scroller__inner {
+  width: max-content;
+  flex-wrap: nowrap;
+  animation: 
+    scroll 
+    var(--animation-duration, 40s) 
+    var(--animation-direction, forwards) 
+    linear 
+    infinite;
+}
+
+.scroller[data-animated="true"]:hover .scroller__inner {
+  animation-play-state: paused;
+}
+
+.scroller[data-animated="true"] .scroller__inner li {
+  filter: grayscale(1);
+}
+
+.scroller[data-animated="true"] .scroller__inner li:hover {
+  filter: grayscale(0);
+}
+
+.scroller[data-direction="left"] {
+  --animation-direction: forwards;
+}
+
+.scroller[data-direction="right"] {
+  --animation-direction: reverse;
+}
+
+.scroller[data-speed="slow"] {
+  --animation-duration: 120s;
+}
+
+.scroller[data-speed="default"] {
+  --animation-duration: 80s;
+}
+
+.scroller[data-speed="fast"] {
+  --animation-duration: 60s;
 }
 
 @keyframes scroll {
-  0% {
-    -webkit-transform: translateX(0);
-    transform: translateX(0);
+  to {
+    /* remove calc gap to prevent jump */
+    transform: translateX(calc(-50% - .5rem));
   }
-  100% {
-    -webkit-transform: translateX(calc(-200px * 13));
-    transform: translateX(calc(-200px * 13));
-  }
-}
-.slider {
-  display: flex;
-  overflow: hidden;
-}
-.slider::before,
-.slider::after {
-  content: "";
-  position: absolute;
-  width: 200px;
-  z-index: 2;
-}
-.slider::after {
-  right: 0;
-  top: 0;
-  -webkit-transform: rotateZ(180deg);
-  transform: rotateZ(180deg);
-}
-.slider::before {
-  left: 0;
-  top: 0;
-}
-.slider .slide-track {
-  -moz-animation: scroll 40s linear infinite;
-  -webkit-animation: scroll 40s linear infinite;
-  animation: scroll 40s linear infinite;
-  display: flex;
-  width: calc(200px * 13);
-}
-.slider .slide {
-  width: 200px;
-  background-color: white;
-  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
 }
 
-/* Sliding Banner End */
+@keyframes jump {
+  0%, 40%, 80%, 100% {
+    transform: translateY(0);
+  }
+  60% {
+    transform: translateY(-2px);
+  }
+}
