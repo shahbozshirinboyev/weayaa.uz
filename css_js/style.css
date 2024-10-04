@@ -126,19 +126,23 @@
 }
 
 @keyframes bg_change {
-    0%{
+    0% {
         background-image: url('../images/background/img4.jpg');
     }
-    10%{
+
+    10% {
         background-image: url('../images/background/img3.jpg');
     }
-    50%{
+
+    50% {
         background-image: url('../images/background/img3.jpg');
     }
-    60%{
+
+    60% {
         background-image: url('../images/background/img4.jpg');
     }
-    100%{
+
+    100% {
         background-image: url('../images/background/img4.jpg');
     }
 }
@@ -197,13 +201,14 @@
     background-color: #56cc35ad !important;
 } */
 
-.span-color{
+.span-color {
     color: #ffffff8f !important;
 }
 
-.map-image{
+.map-image {
     margin-top: 25px !important;
 }
-.media-body h4{
+
+.media-body h4 {
     color: #2E6734 !important;
 }
