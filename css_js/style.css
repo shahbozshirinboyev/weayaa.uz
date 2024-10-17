@@ -4,7 +4,7 @@
 }
 
 .dropdown-menu {
-    background-color: #ffffff9d !important;
+    background-color: rgb(255, 255, 255, 0.4) !important;
 }
 
 .dropdown-toggle {
@@ -22,7 +22,7 @@
 }
 
 .dropdown-toggle:hover {
-    color: #56CC35 !important;
+    color: #2E6734 !important;
 }
 
 /* navbar start */
@@ -32,12 +32,12 @@
 
 /* Scrolled state */
 .mh-header.scrolled .navbar-nav li.active a {
-    border-color: #000 !important;
+    border-color: #2E6734 !important;
 }
 
 /* Scrolled state */
 .mh-header.scrolled .navbar-nav li a {
-    color: #000 !important;
+    color: #2E6734 !important;
 }
 
 /* navbar end */
@@ -111,7 +111,7 @@
 }
 
 #background-img {
-    background-image: url('../images/background/img1.jpg');
+    background-image: url('../assets/images/background/img3.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     position: absolute;
@@ -127,23 +127,23 @@
 
 @keyframes bg_change {
     0% {
-        background-image: url('../images/background/img4.jpg');
+        background-image: url('../assets/images/background/img4.jpg');
     }
 
     10% {
-        background-image: url('../images/background/img3.jpg');
+        background-image: url('../assets/images/background/img3.jpg');
     }
 
     50% {
-        background-image: url('../images/background/img3.jpg');
+        background-image: url('../assets/images/background/img3.jpg');
     }
 
     60% {
-        background-image: url('../images/background/img4.jpg');
+        background-image: url('../assets/images/background/img4.jpg');
     }
 
     100% {
-        background-image: url('../images/background/img4.jpg');
+        background-image: url('../assets/images/background/img4.jpg');
     }
 }
 
